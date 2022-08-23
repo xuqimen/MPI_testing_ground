@@ -1,5 +1,5 @@
 #!/bin/bash
-#PBS -l nodes=10:ppn=24
+#PBS -l nodes=2:ppn=24
 #PBS -l pmem=7GB
 #PBS -l walltime=00:10:00
 #PBS -A GT-phanish6
@@ -16,7 +16,7 @@ ulimit -s unlimited
 export MV2_ENABLE_AFFINITY=1
 export MV2_CPU_BINDING_POLICY=bunch
 
-nproc=240
+nproc=24
 
 #for i in `seq -f "%.0f" 50 10 100`
 for np in ${nproc}

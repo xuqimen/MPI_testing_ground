@@ -9,7 +9,7 @@ double do_some_work() {
     int rank;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     double rand_val = 0.0, temp = 0.0;
-    for (int i = 0; i < 2e6; i++) {
+    for (int i = 0; i < 100e6; i++) {
     // for (int i = 0; i < 2e1; i++) {
         srand(i+rank+1);
         temp = ((double) rand() / RAND_MAX);
