@@ -2,20 +2,22 @@
 #include <stdlib.h>
 #include <assert.h>
 #include <mpi.h>
-
+#include <unistd.h>
 
 // this function does some meaningless work that consumes some time
 double do_some_work() {
-    int rank;
-    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-    double rand_val = 0.0, temp = 0.0;
-    for (int i = 0; i < 20e6; i++) {
-    // for (int i = 0; i < 2e1; i++) {
-        srand(i+rank+1);
-        temp = ((double) rand() / RAND_MAX);
-        rand_val = (rand_val > temp) ? rand_val : temp;
-    }
-    return rand_val;
+    sleep(23);
+    return 0.0;
+    // int rank;
+    // MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    // double rand_val = 0.0, temp = 0.0;
+    // for (int i = 0; i < 20e6; i++) {
+    // // for (int i = 0; i < 2e1; i++) {
+    //     srand(i+rank+1);
+    //     temp = ((double) rand() / RAND_MAX);
+    //     rand_val = (rand_val > temp) ? rand_val : temp;
+    // }
+    // return rand_val;
 }
 
 
