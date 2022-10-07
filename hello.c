@@ -43,8 +43,11 @@ int main(int argc, char **argv) {
 
     // warm up
     MPI_Barrier(MPI_COMM_WORLD);
-    MPI_Iallreduce(MPI_IN_PLACE, x, n, MPI_DOUBLE, MPI_MIN, MPI_COMM_WORLD, &req);
-    MPI_Wait(&req, MPI_STATUS_IGNORE);
+    for (int i = 0; i < 5; i++) {
+        MPI_Iallreduce(MPI_IN_PLACE, x, n, MPI_DOUBLE, MPI_MIN, MPI_COMM_WORLD, &req);
+        MPI_Wait(&req, MPI_STATUS_IGNORE);
+        MPI_Barrier(MPI_COMM_WORLD);
+    }
     MPI_Barrier(MPI_COMM_WORLD);
 
 
