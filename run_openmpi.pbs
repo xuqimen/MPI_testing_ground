@@ -1,0 +1,30 @@
+#!/bin/bash
+#PBS -l nodes=10:ppn=24
+#PBS -l pmem=7GB
+#PBS -l walltime=00:10:00
+#PBS -A GT-phanish6
+#PBS -q inferno
+##PBS -q hive-interact
+#PBS -N Al_scaling
+#PBS -o stdout
+#PBS -e stderr
+cd $PBS_O_WORKDIR
+
+#module load anaconda3/4.2.0;source activate atm
+module load openmpi/3.1.6
+ulimit -s unlimited
+
+export MV2_ENABLE_AFFINITY=1
+export MV2_CPU_BINDING_POLICY=bunch
+
+nproc=240
+
+#for i in `seq -f "%.0f" 50 10 100`
+for np in ${nproc}
+do
+    echo ${np}
+    mpirun -np ${np} ./hello > np-${np}.log
+done
+
+
+

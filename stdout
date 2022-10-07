@@ -23,3 +23,78 @@ atl1-1-01-003-28-l.pace.gatech.edu atl1-1-01-003-31-l.pace.gatech.edu
 atl1-1-01-003-3-r.pace.gatech.edu atl1-1-01-003-4-l.pace.gatech.edu
 End PBS Epilogue Tue Aug 23 14:57:23 EDT 2022
 ---------------------------------------
+---------------------------------------
+Begin PBS Prologue Fri Oct  7 14:30:38 EDT 2022
+Job ID:     5017323.sched-torque.pace.gatech.edu
+User ID:    qxu78
+Job name:   Al_scaling
+Queue:      inferno
+End PBS Prologue Fri Oct  7 14:30:38 EDT 2022
+---------------------------------------
+240
+---------------------------------------
+Begin PBS Epilogue Fri Oct  7 14:30:47 EDT 2022
+Job ID:     5017323.sched-torque.pace.gatech.edu
+User ID:    qxu78
+Job name:   Al_scaling
+Resources:  nodes=10:ppn=24,pmem=7gb,walltime=00:10:00,neednodes=10:ppn=24
+Rsrc Used:  cput=00:08:20,vmem=339168kb,walltime=00:00:06,mem=5592kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-012-12-l.pace.gatech.edu atl1-1-02-012-15-l.pace.gatech.edu 
+atl1-1-02-012-16-l.pace.gatech.edu atl1-1-02-012-16-r.pace.gatech.edu 
+atl1-1-02-012-23-r.pace.gatech.edu atl1-1-02-012-27-l.pace.gatech.edu 
+atl1-1-02-012-2-l.pace.gatech.edu atl1-1-02-012-33-r.pace.gatech.edu 
+atl1-1-02-012-34-r.pace.gatech.edu atl1-1-02-012-36-l.pace.gatech.edu
+End PBS Epilogue Fri Oct  7 14:30:47 EDT 2022
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Fri Oct  7 14:41:19 EDT 2022
+Job ID:     5017328.sched-torque.pace.gatech.edu
+User ID:    qxu78
+Job name:   Al_scaling
+Queue:      inferno
+End PBS Prologue Fri Oct  7 14:41:19 EDT 2022
+---------------------------------------
+240
+---------------------------------------
+Begin PBS Epilogue Fri Oct  7 14:41:32 EDT 2022
+Job ID:     5017328.sched-torque.pace.gatech.edu
+User ID:    qxu78
+Job name:   Al_scaling
+Resources:  nodes=10:ppn=24,pmem=7gb,walltime=00:10:00,neednodes=10:ppn=24
+Rsrc Used:  cput=00:25:12,vmem=18768984kb,walltime=00:00:11,mem=99164216kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-012-12-l.pace.gatech.edu atl1-1-02-012-15-l.pace.gatech.edu 
+atl1-1-02-012-16-l.pace.gatech.edu atl1-1-02-012-16-r.pace.gatech.edu 
+atl1-1-02-012-23-r.pace.gatech.edu atl1-1-02-012-27-l.pace.gatech.edu 
+atl1-1-02-012-2-l.pace.gatech.edu atl1-1-02-012-33-r.pace.gatech.edu 
+atl1-1-02-012-34-r.pace.gatech.edu atl1-1-02-012-36-l.pace.gatech.edu
+End PBS Epilogue Fri Oct  7 14:41:33 EDT 2022
+---------------------------------------
+---------------------------------------
+Begin PBS Prologue Fri Oct  7 14:55:40 EDT 2022
+Job ID:     5017341.sched-torque.pace.gatech.edu
+User ID:    qxu78
+Job name:   Al_scaling
+Queue:      inferno
+End PBS Prologue Fri Oct  7 14:55:40 EDT 2022
+---------------------------------------
+240
+---------------------------------------
+Begin PBS Epilogue Fri Oct  7 14:56:20 EDT 2022
+Job ID:     5017341.sched-torque.pace.gatech.edu
+User ID:    qxu78
+Job name:   Al_scaling
+Resources:  nodes=10:ppn=24,pmem=7gb,walltime=00:10:00,neednodes=10:ppn=24
+Rsrc Used:  cput=01:58:39,vmem=65571752kb,walltime=00:00:37,mem=114484724kb,energy_used=0
+Queue:      inferno
+Nodes:     
+atl1-1-02-017-12-r.pace.gatech.edu atl1-1-02-017-21-l.pace.gatech.edu 
+atl1-1-02-017-21-r.pace.gatech.edu atl1-1-02-017-31-r.pace.gatech.edu 
+atl1-1-02-017-35-r.pace.gatech.edu atl1-1-02-018-15-r.pace.gatech.edu 
+atl1-1-02-018-17-r.pace.gatech.edu atl1-1-02-018-19-l.pace.gatech.edu 
+atl1-1-02-018-20-r.pace.gatech.edu atl1-1-02-018-6-r.pace.gatech.edu
+End PBS Epilogue Fri Oct  7 14:56:20 EDT 2022
+---------------------------------------
